@@ -24,3 +24,5 @@ jobs:
       - name: Validate application
         run: npm test
         working-directory: app
+        env: 
+          APP_ENV: test
